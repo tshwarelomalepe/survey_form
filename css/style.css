@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap');
+
+:root {
+    --dark: rgba(0, 140, 255, 0.808);
+    --light: #ffffff;
+}
+
+body {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    background: linear-gradient(
+        to bottom, 
+        rgba(29, 29, 29, 0.73),
+        rgba(0, 0, 0, 0.73),
+        rgba(0, 0, 0, 0.73),
+        rgba(0, 0, 0, 0.73),
+        rgba(0, 0, 0, 0.73)),
+        url('../assets/beach.jpg');
+    color: var(--light);
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+#description {
+    font-size: 1.7em; /*1em = 16px*/
+}
+
+#name, #email, #number {
+    width: 50vw;
+    padding: 0.25em 0 0.25em 0.5em;
+}
+
+textarea {
+    user-select: none;
+    width: 50vw;
+    resize: none;
+}
+

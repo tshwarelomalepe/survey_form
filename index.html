@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <h1 id="title">Which country are you likely visit?</h1>
+    <p id="description">Let's help you find your ideal destination.</p>
+    <form id="survey-form">
+      <div>
+      <label id="name-label" >Name:</label>
+    </div>
+    <div>
+      <input id="name" type="text" required placeholder="Enter your name">
+    </div>
+    <div>
+      <label id="email-label">Email Address:</label>
+    </div>
+     <div>
+       <input id="email" type="email" required placeholder="Enter your email">
+      </div>
+<div>
+  <label id="number-label">Age:</label>
+</div>
+      <div>
+        <input id="number" type="number" required placeholder="Enter your age" min="10" . max="80">
+      </div>
+      <div>
+        <p>What continent would you visit:</p>
+        <select id="dropdown">
+          <option disabled selected value="">Select an option</option>
+          <option value="">Africa</option>
+          <option value="">Australia</option>
+          <option value="">North America</option>
+          <option value="">Asia</option>
+        </select>
+      </div>
+      <p>Which season do you like to travel?</p>
+      <div class="season-container">
+        <input id="season-input" name="season" type="radio" value="Summer"><label>Summer</label>
+        <input id="season-input" name="season" type="radio" value="Winter"><label>Winter</label>
+        <input id="season-input" name="season" type="radio" value="Spring"><label>Spring</label>
+        <input id="season-input" name="season" type="radio" value="Autumn"><label>Autumn</label>
+      </div>
+      <div><label>Gender:</label></div>
+      <div>
+        <label>M</label>
+        <input type="checkbox" value="Male">
+        <label>F</label>
+        <input type="checkbox" value="Female">
+        <label>Other</label>
+        <input type="checkbox" value="Rather not say">
+
+      </div>
+      <p>Tell us more about your travel expectations:</p>
+      <div>
+        <textarea></textarea>
+      </div>
+
+      <div>
+        <button type="submit" id="submit">Submit</button>
+      </div>
+    </form>
+    
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    
+    <script  src="js/index.js"></script>
+  </body>
+</html>
